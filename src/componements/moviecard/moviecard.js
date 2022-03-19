@@ -1,11 +1,12 @@
-import react from "react";
+// import react from "react";
 import { Card , Button } from "react-bootstrap" ;
-import "./MovieCard.css"
+import "./MovieCard.css" ;
+import ReactStars from "react-rating-stars-component";
 
 function MovieCard({movie}) {
     return (
         <Card style={{width:"18rem"}}>
-            <Card.Img variant="top" src={movie.posterUrl} height="60%" />
+            <Card.Img variant="top" src={movie.posterUrl} height="60% " />
             <Card.Body>
                 <Card.Title>{movie.title}</Card.Title>
                 <Card.Text>
@@ -18,6 +19,6 @@ function MovieCard({movie}) {
             </Card.Footer>
         </Card>
     )
-}
+} ;
 
-export default MovieCard;
+export default MovieCard   ;
