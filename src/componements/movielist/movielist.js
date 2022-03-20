@@ -1,6 +1,7 @@
 // import react from "react";
 import MovieCard from "../moviecard/moviecard";
-import './movielist.css'
+import './movielist.css';
+
 
 function MovieList({ moviesData, searchInput, rateInput }) {
     return (
